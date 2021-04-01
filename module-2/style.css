@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+h1{
+    position: relative;
+   text-align: center;
+   margin:100px 0 0 0;
+}
+
+.container{
+    display:flex;
+}
+
+.col-md-4 > h3{
+    
+  
+     margin: 0 0 0 400px;
+     box-sizing: border-box;
+}
+
+.col-md-4 #roza{
+ 
+    box-sizing: border-box;
+    background-color:pink;
+}
+
+.col-md-4 #crveni{
+    background-color:rgba(100, 10, 10, 0.664);
+    color:white;
+}
+
+.col-md-4 #zuti{
+    background-color:rgb(119, 89, 7);
+}
+
+.col-md-4 {
+    background-color: grey;
+    box-sizing: border-box;
+}
