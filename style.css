@@ -1,0 +1,72 @@
+/*   *{
+    margin:0;
+    padding:0;
+
+    
+} */
+
+   h1{
+   position: relative;
+   text-align: center;
+   font-size:52.5px;
+   margin:100px 0 0 0;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}  
+.flex-container{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  position:relative;
+}
+
+  .flex-container > div {
+    border: 3px solid black;
+    margin: 10px;
+    
+    font-size: 20px;
+    
+    background-color: grey;
+  }
+
+
+  .chicken-container  {
+ border: 3px solid black;
+    margin: 0;
+    padding: 0;
+    font-size: 125%;
+    background-color:palevioletred;
+    text-align: center;
+   
+   max-width: 40%;
+   box-sizing:border-box;
+    
+    justify-content: flex-end;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .beef-container {
+    border: 3px solid black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-size: 125%;
+    max-width: 40%;
+ 
+    background-color:brown;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .sushi-container  {
+    border: 3px solid black;
+    margin: 0;
+    padding: 0;
+    font-size: 125%;
+    max-width: 40%;
+    background-color:rgb(184, 184, 113);
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .box{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
